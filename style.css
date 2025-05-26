@@ -1,0 +1,60 @@
+body {
+  height: 100vh;
+  background-color: black;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  margin: auto auto auto auto;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: Inter;
+  font-weight: 400;
+  margin: 0;
+}
+
+.inputField {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  border: none;
+  padding: 10px;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+
+.inputField::placeholder {
+  color: #fff;
+}
+
+.submitBtn {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.mainContainer {
+  width: 50%;
+  margin: 150px auto;
+}
