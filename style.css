@@ -36,6 +36,7 @@ h1 {
   background-color: transparent;
   border-bottom: 1px solid white;
   padding: 10px;
+  outline: none;
 }
 
 .inputField::placeholder {
